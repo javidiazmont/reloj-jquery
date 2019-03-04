@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'digi';
+    src: url('../fonts/DS-DIGII.TTF');
+}
+
+body {
+    font-family: 'digi';
+    font-size: 80%;
+    background: #000000;
+}
+
+@media screen and (max-width:640px) {
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+}
+@media screen and (min-width:1024px) {
+}
+
+
+#clock {
+    font-size: 4em;
+    color: #FEE500;
+
+    position: absolute;
+    left: 50%; top: 45%;
+    margin-left: -125px; margin-top: -50px;
+}
